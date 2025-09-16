@@ -88,6 +88,7 @@ namespace GerenciamentoDeEstoque
             if(listaDeProdutos.Count == 0)
             {
                 Console.WriteLine("Nenhum produto cadastrado");
+                Opcao();
             }else
             {
                 Console.WriteLine("Lista de Produtos: ");

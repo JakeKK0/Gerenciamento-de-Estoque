@@ -1,0 +1,15 @@
+/workspaces/Gerenciamento-de-Estoque/bin/Debug/net8.0/GerenciamentoDeEstoque
+/workspaces/Gerenciamento-de-Estoque/bin/Debug/net8.0/GerenciamentoDeEstoque.deps.json
+/workspaces/Gerenciamento-de-Estoque/bin/Debug/net8.0/GerenciamentoDeEstoque.runtimeconfig.json
+/workspaces/Gerenciamento-de-Estoque/bin/Debug/net8.0/GerenciamentoDeEstoque.dll
+/workspaces/Gerenciamento-de-Estoque/bin/Debug/net8.0/GerenciamentoDeEstoque.pdb
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.AssemblyInfoInputs.cache
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.AssemblyInfo.cs
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.csproj.CoreCompileInputs.cache
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.sourcelink.json
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.dll
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/refint/GerenciamentoDeEstoque.dll
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.pdb
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/GerenciamentoDeEstoque.genruntimeconfig.cache
+/workspaces/Gerenciamento-de-Estoque/obj/Debug/net8.0/ref/GerenciamentoDeEstoque.dll

@@ -17,6 +17,7 @@ namespace GerenciamentoDeEstoque
         // Método das opções
         static public void Opcao()
         {
+            
             Console.WriteLine("Opções:\n1- Adicionar Produto\n2- Deletar Produto\n3- Listar Produtos\n4- Encerrar Programa");
             string opcao = Console.ReadLine();
 
@@ -41,13 +42,14 @@ namespace GerenciamentoDeEstoque
             }
         }
 
+        // Método para adicionar produtos
         static public void Adicionar()
         {
             Console.WriteLine("Digite os produtos (Use vírgulas para separar os produtos)");
             string produtos = Console.ReadLine();
             string[] lista = produtos.Split(','); // Todos os itens da array é separado por vírgulas
 
-            if(String.IsNullOrEmpty(produtos))
+            if(String.IsNullOrEmpty(produtos)) // Checando se a lista dos produtos está fazia
             {
                 Console.WriteLine("Você não digitou nenhum produto!");
             }else
@@ -58,20 +60,21 @@ namespace GerenciamentoDeEstoque
 
                     if(!string.IsNullOrEmpty(produtoS))
                     {
-                        listaDeProdutos.Add(produtoS);
+                        listaDeProdutos.Add(produtoS); // Adicionando os produtos na lista
                     }
                 }
             }
 
-            Opcao();
+            Opcao(); // Retornando para opções
         }
 
+        // Método para deletar produtos
         static public void Deletar()
         {
             Console.WriteLine("Digite o produto que deseja deletar: ");
             string produtoD = Console.ReadLine().Trim();
 
-            if(listaDeProdutos.Contains(produtoD))
+            if(listaDeProdutos.Contains(produtoD)) // Checando se na lista possui o produto digitado
             {
                 listaDeProdutos.Remove(produtoD);
                 Console.WriteLine($"Produto '{produtoD}' removido com sucesso!");
@@ -80,12 +83,13 @@ namespace GerenciamentoDeEstoque
                 Console.WriteLine("Produto não encontrado");
             }
 
-            Opcao();
+            Opcao(); // Retorna para opções
         }
 
+        // Método para listar os produtos da lista
         static public void ListarProdutos()
         {
-            if(listaDeProdutos.Count == 0)
+            if(listaDeProdutos.Count == 0) // Checando se a lista está vazia
             {
                 Console.WriteLine("Nenhum produto cadastrado");
             }else
@@ -97,7 +101,7 @@ namespace GerenciamentoDeEstoque
                     Console.WriteLine($"- {produto}");
                 }
 
-                Opcao();
+                Opcao(); // Retorna para opções
             }
         }
     }
